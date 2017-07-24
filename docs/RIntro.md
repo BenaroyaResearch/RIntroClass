@@ -40,5 +40,4 @@ Works if function is available in your environment, if not try:
 ?? as in ??vegan
 ```
 
-
-
+<div style="text-align: right"> [Index](../README.md) </div>
