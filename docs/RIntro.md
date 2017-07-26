@@ -3,23 +3,21 @@
 ## Introduction
 
 * What is R
+	* An interpreted languge for filtering, analyzing and visualizing data.
 * What R is not
-* Some details about R
-	* Interpreted, Interactive Language
-	* Statistical analysis, filtering, transforming, plotting
-	* Based on previous languages, S, S-plus - previous work to lean on
-* Packages
+	* An automated analysis tool - you have to decide how to analyse the data
+* Packages are an important feature of R
 	* CRAN: package repository
-	* Bioconductor: specific packages for Bioinformatics
+	* Bioconductor: Bioinformatics oriented packages.
 	
 ## R Studio
 * R Studio is an Integrated Development Environment (IDE)
 * Why use R Studio?
-	* Script Managment
+	* Script, and other document Managment
 	* Project Management (multiple scripts)
 	* Help, Plots, History, Visualizations in one place
 * Why Scripts
-	* Sequence of loading libraries, function calls to create an analysis or plot
+	* Saves a sequence of loading libraries and function calls to create an analysis or plot
 	* Most Importantly: **Reproducible Research** - write scripts to reproducibly run your analysis
 * Four sections:
 	* Editor - write R code
@@ -27,15 +25,11 @@
 	* Files, Plots, Help
 	* Console - interaction with R interpreter
 
-## Getting Help
-Inside R, at the console:
+## Let's get Started
 
-```
-? as in ?mean
-```
-
-Works if function is available in your environment, if not try:
-
-```
-?? as in ??vegan
-```
+* Download the class repository and uncompress it.
+* Start RStudio
+* Change the working directory to the class repository (*Session > Set Working Directory*)
+* Create a Project (*File > New Project...  In An Existing Directory*)
+* Call it 'RIntro' - or whatever you'd like.
+* 
