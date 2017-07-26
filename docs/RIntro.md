@@ -35,4 +35,4 @@
 * Open our script file:  (*File > Open File > Intro.R*)
 
 
-[up](../README.md) | [next](RDataTypes.md)
+[up](../README.md) | [next](RBasics.md)

@@ -72,3 +72,4 @@ Patient C      F     58      3
 Patient D      F     55      4
 Patient E      M     62      1
 ```
+[prev](RDataTypes.md) | [up](../README.md) | done

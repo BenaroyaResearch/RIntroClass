@@ -53,3 +53,5 @@ Works if function is available in your environment, if not try:
 And speaking of stackoverflow, part of the stackechange group, is is an excellent place to look for answers to programming questions or issues. See [the stats stackechange site](http://stats.stackexchange.com) for more statistics oriented questions.
 
 Later in the course, we will discuss Biocondutor packages - Bioconductor also has it's own [help forum](https://support.bioconductor.org/).
+
+[prev](RIntro.md) | [up](../README.md) | [next](RDataTypes.md)

@@ -97,4 +97,4 @@ See also:
 * matrix() [manual page](https://stat.ethz.ch/R-manual/R-devel/library/base/html/matrix.html), [tutor page](http://www.r-tutor.com/r-introduction/matrix)
 
 
-
+[prev](RBasics.md) | [up](../README.md) | [next](RListsFrames.md)
