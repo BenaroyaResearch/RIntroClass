@@ -38,19 +38,19 @@ You can use the ```print()``` function, but usually **R** is smart enough to kno
 
 ## Getting Help
 
-Inside R, at the console:
+Inside R, at the console, try ```?```:
 
 ```
-? as in ?mean
+>?mean
 ```
 
-Works if function is available in your environment, if not try:
+This works if function is available in your environment, if not try ```??```:
 
 ```
-?? as in ??princomp
+>??princomp
 ```
 
-And speaking of stackoverflow, part of the stackechange group, is is an excellent place to look for answers to programming questions or issues. See [the stats stackechange site](http://stats.stackexchange.com) for more statistics oriented questions.
+[Stackoverflow](https://stackoverflow.com/questions/tagged/r), part of the stackechange group, is is an excellent place to look for answers to programming questions or issues. See [the stats stackechange site](http://stats.stackexchange.com) for more statistics oriented questions.
 
 Later in the course, we will discuss Biocondutor packages - Bioconductor also has it's own [help forum](https://support.bioconductor.org/).
 

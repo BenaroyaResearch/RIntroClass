@@ -32,7 +32,7 @@ We can make longer vectors using the ```c()``` function (short for combine, or c
 [1] "numeric" # a vector of numbers (integers or doubles)
 ```
 
-Vectors should contain only values of the same type (here numbers).   As you might now expect, many **R** functions take vectors as arguments.  ```mean()``` and ```sd()``` (standard deviation) return what you would expect.  ```summary()``` is a convient function that returns a few important details about the argument - given a vector, ```summary()``` returns information about it's distribution and statistics.
+Vectors should contain only values of the same type (here numbers).  As you might now expect, many **R** functions take vectors as arguments.  ```mean()``` and ```sd()``` (standard deviation) return what you would expect.  ```summary()``` is a convient function that returns a few important details about the argument - given a vector, ```summary()``` returns information about it's distribution and basic statistics.
 
 ```
 > mean(f.height)

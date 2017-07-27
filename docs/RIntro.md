@@ -33,6 +33,7 @@
 * Create a Project (*File > New Project...  In An Existing Directory*)
 * Call it 'RIntro' - or whatever you'd like.
 * Open our script file:  (*File > Open File > Intro.R*)
+* [Move on](RBasics.md) to the section on R basics...
 
 
 [up](../README.md) | [next](RBasics.md)
