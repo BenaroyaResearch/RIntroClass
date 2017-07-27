@@ -7,7 +7,7 @@ This repository provides the data and presentation materials for an Introductory
 * [Introduction](docs/RIntro.md)
 * [Basic Operations](docs/RBasics.md)
 * [Basic Data Types](docs/RDataTypes.md)
-* [Lists, Factors and Data Frames](docs/RListFrames.md)
+* [Lists, Factors and Data Frames](docs/RListsFrames.md)
 
 ### Part Two: Import/Filter/Export
 
