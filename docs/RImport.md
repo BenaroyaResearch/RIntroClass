@@ -2,7 +2,7 @@
 
 ## Import/Read a file.
 
-```read.csv``` is probably one of the easiest ways to get data into R. Let's load a subset of a T1D study.
+```read.csv()``` is probably one of the easiest ways to get data into R. Let's load a subset of a T1D study.
 
 ```
 >data <- read.csv("data/example.csv", row.names=1)
@@ -30,7 +30,7 @@ Finally pct.p5IL7pos_nvCD8 has been loaded in as a vector of numbers but we can 
 
 #### NA - what is it?
 
-What is an 'NA'?  **NA** is a specific string that has special meaning in **R** - 'not available'  You should use NA instead of blanks, whitespace, period ('.'), or any other character or string.  If you need to specify why some data is missing, do that in a comment field.  If you use something other than NA for missing number, ```read.csv()``` or other importers will be confused and think that the entire column is strings instead of numbers. 
+What is an 'NA'?  *NA*, sometimes referred to as a 'missing value', is a specific string that has special meaning in **R** - 'not available'  You should use NA instead of blanks, whitespace, period ('.'), or any other character or string.  If you need to specify why some data is missing, do that in a comment field.  If you use something other than NA for missing number, ```read.csv()``` or other importers will be confused and think that the entire column is strings instead of numbers.
 
 Back to our situation, how many NAs are therein our set?  One way to do that is to first we can test each element of the vector to see if it's NA
 
@@ -48,7 +48,6 @@ is.na(data$pct.p5IL7pos_nvCD8)
 [163] FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE FALSE FALSE FALSE FALSE FALSE
 [181] FALSE FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE  TRUE FALSE FALSE FALSE
 [199] FALSE  TRUE
-
 ```
 
 This returns a vector representing truth or falsehood for each element of the vector.
@@ -63,8 +62,7 @@ FALSE  TRUE
 
 >any(is.na(data$pct.p5IL7pos_nvCD8))
 [1] TRUE
-
 ```
-
+But, why is this important to me?  Because the statistical functions in **R** need to know what to do when it encounters an *NA*.  Sometimes they will fail miserably, but most of the time you can designate what you would like to have happen.  We will see this in action in the next section.
 
 [up](../README.md) | [next](RFilter.md)
